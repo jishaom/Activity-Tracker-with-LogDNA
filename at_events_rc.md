@@ -35,11 +35,15 @@ The {{site.data.keyword.at_full_notm}} service records user-initiated activities
 
 The following table lists the actions that generate an event:
 
-| Action                         | Description |
-|--------------------------------|---------|
-| `service_name.instance.create` | An event is generated when you provision a service instance. |
-| `service_name.instance.update` | An event is generated when you rename a service instance or when you change the service plan. |
-| `service_name.instance.delete` | An event is generated when a service instance is deleted. |
+| Action                                   | Description |
+|------------------------------------------|---------|
+| `service_name.instance.create`           | An event is generated when you provision a service instance. |
+| `service_name.instance.update`           | An event is generated when you rename a service instance or when you change the service plan. |
+| `service_name.instance.delete`           | An event is generated when a service instance is deleted. |
+| `service_name.instance.schedule_reclaim` | An event is generated when a service instance is pending_reclamation. |
+| `service_name.instance.restore`          | An event is generated when a service instance is restored. |
+
+
 {: caption="Table 1. Actions that generate events" caption-side="top"} 
 
 
